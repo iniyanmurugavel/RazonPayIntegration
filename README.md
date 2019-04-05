@@ -29,6 +29,3 @@ Releases are available at [https://github.com/razorpay/razorpay-android-sample-a
 
 Razorpay is a tech company. All our engineers handle support too. You can write to us at razorpay.com/support and expect a response from the devs responsible for the Android SDK.
 
-## License
-
-MIT Licensed. LICENSE file added to repo.
