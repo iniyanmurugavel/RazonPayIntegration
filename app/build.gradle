@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.razorpay.newsampleapp"
+        minSdkVersion 19
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFile 'proguard-project.txt'
+        }
+        release {
+            minifyEnabled false
+            proguardFile 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.razorpay:checkout:1.5.1'
+}
